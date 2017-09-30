@@ -35,7 +35,7 @@ var orm = {
 		});
 	},
 	insertOne: function(table, column, value, cb){
-		var queryString = 'INSERT INTO ' + table;
+		var queryString = 'INSERT ' + table;
 
 		queryString+= ' (';
     	queryString+= column.toString();
@@ -49,9 +49,9 @@ var orm = {
     			throw error;
     		}
 
+    		cb(result);
     	});
 
-    	cb(result);
 	},
 	updateOne: function (table, objColVals, condition, cb) {
 		var queryString = 'UPDATE ' + table;

@@ -1,5 +1,5 @@
 body {
-	background-color: gold;
+	background-color: #f29543;
 	font-family: 'Erica One', cursive;
 	font-family: 'Sigmar One', cursive;
 	font-family: 'Modak', cursive;
@@ -30,9 +30,23 @@ p {
 .well {
 	background-color: #703603;
 	border: 0px;
-	padding-top: 10px;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 
 #devoured {
 	background-color: green;
+	padding: 1px;
+}
+
+.btn {
+	background-color: yellow;
+}
+
+#createButton {
+	margin-left: 100px;
+}
+
+input {
+	width: 100%;
 }
