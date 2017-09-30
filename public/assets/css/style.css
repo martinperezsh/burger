@@ -1,0 +1,38 @@
+body {
+	background-color: gold;
+	font-family: 'Erica One', cursive;
+	font-family: 'Sigmar One', cursive;
+	font-family: 'Modak', cursive;
+}
+
+h1 {
+	text-align: center;
+	color: red;
+}
+
+h2 {
+	font-size: 25px;
+	color: red;
+	text-align: center;
+}
+p {
+	text-align: center;
+	color: red;
+	padding-bottom: -10px;
+}
+
+#image {
+	width: 250px;
+	margin-left: 50px;
+	margin-bottom: -40px;
+}
+
+.well {
+	background-color: #703603;
+	border: 0px;
+	padding-top: 10px;
+}
+
+#devoured {
+	background-color: green;
+}
